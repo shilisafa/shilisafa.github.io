@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:#c8d2ff !important;
+    background-image: url('image77.jpg');
+    color: #333;
+    margin: 0;
+    padding: 0;
+    direction: rtl; /* lektiba men limin lel lisar */
+    text-align: center;
+}
+h1 {
+    font-size: 2rem;
+    color: #e9eaf0 !important;;
+    margin-top: 30px;
+    font-style: italic;
+    text-align: center;
+}
+p{
+    color:beige;
+}
+form {
+    background-color:#abbdff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;/*takwissa fi zone de text*/
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1);/*kharja mtaa formulaire*/
+}
+input, select, textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #e4e8ff;
+    border-radius: 50px;/*takwissa fi zone de text*/
+}
+textarea {
+    resize: vertical;
+}
+#r1{
+    
+    width: auto;
+    margin-right: 5px;
+}
+#r2{
+    
+    width: auto;
+    margin-right: 5px;
+}
+#r3{
+    
+    width: auto;
+    margin-right: 5px;
+}
+button:hover {
+    background-color: #2980b9;
+}
+img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    form {
+        padding: 15px;
+    }
+}
